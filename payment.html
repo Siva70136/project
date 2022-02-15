@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>payment</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\AdmiN\Desktop\project\css\bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="C:\Users\AdmiN\Desktop\project\css\payment.css">
+	<script src="https://kit.fontawesome.com/cb7b89efc6.js" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+			function pay()
+			{
+	 		alert("payment successful");
+	 		return false;
+		
+			}
+	</script>
+</head>
+<body>
+
+
+
+<form name="myform" onsubmit="return pay()" action="C:\Users\AdmiN\Desktop\project\main.html" > 
+<div>
+	
+	<center>
+
+	<table>
+
+<tr>
+	<th><input type="radio" name="pay">pay with card </th>
+</tr>
+<tr>
+	<td><i class="fa fa-cc-visa">
+	<i class="fa fa-cc-amex">
+	<i class="fa fa-cc-mastercard">
+	<i class="fa fa-cc-discover"></td>
+</tr>
+<tr>
+	<th><input type="number" name="n1" placeholder="ENTER CARD NUMBER">&nbsp;&nbsp;</th>
+</tr>
+<tr>
+	<th><input type="text" name="n1" placeholder="CVV" maxlength="3" size="20"></th>
+</tr>
+<tr>
+	<th><input type="number" name="n1" size="5" placeholder="EXP"></th>
+</tr>
+<tr>
+	<th><input type="radio" name="pay" size="20">UPI  Id  </th>	
+</tr>
+<tr>
+	<th><input type="number" name="n1" size="5" placeholder="UPI ID">&nbsp;&nbsp;<a href="">Verify</a></th>
+</tr>
+	
+<tr>
+	<th><input type="radio" name="pay" size="20">NET BANKING</th>
+</tr>
+<tr>
+	<th><input type="number" name="n2" placeholder="ENTER ACCOUNT NUMBER"></th>
+</tr>
+<tr>
+	<th><input type="number" name="n4" placeholder="ENTER ACCOUNT HOLDER NAME"></th>
+</tr>
+<tr>
+	<th><input type="text" name="n3" placeholder="Select your BANK" size="20"></th>
+</tr>
+<tr>
+	<th><input type="text" name="ifsc" placeholder="IFSC code" size="20"></th>
+</tr>
+<tr>
+<th><input type="submit" value="PAY" onclick="pay();"/></th>
+</tr>
+
+	</table>
+	</center>
+
+</div>
+</form>
+<script type="text/javascript" src="C:\Users\AdmiN\Desktop\project\js\valid.js"></script>
+</body>
+</html>

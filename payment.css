@@ -1,0 +1,74 @@
+body{
+	background:#91ffe7 ;
+}
+pre{
+	border: 1px solid #ffe791;
+	background:#ffe791;
+	font-size: 25px;
+	color: white;
+	font-family: Airal;
+
+	}
+
+body{
+	//background-image: url("bg.jpg");
+	background-size: cover;
+	}
+			
+table{
+		border-collapse:separate;
+		margin: 5px;
+		border: 1px ridge black;
+		border-spacing: 10px;
+		width: 30%;
+		background:#ffe791;
+		border-radius: 20px;
+	}
+table{
+	text-align: center;
+}
+i{
+	color: blue;
+	font-size: 30px;
+
+}
+#mm{
+	color: black;
+	font-size: 15px;
+}
+#ma{
+	font-size: 15px;
+	color: black;
+}
+th{
+	
+	//text-align:right;
+	align-items: center;
+	}
+
+
+ @media screen and (max-width: 600px){
+	
+	    img{
+	    	width: 50%;
+
+	    }
+	    pre{
+	    	font-size: 20px;
+	    }
+	    #s{
+	    	width: 8%;
+	    	height: 25%;
+	    }
+		    }
+		    @media screen and (max-width: 796px){
+	
+	    img{
+	    	width: 35%;
+	    }
+	        #s{
+	    	width: 8%;
+	    	height: 25%;
+	    }
+		    }
+
